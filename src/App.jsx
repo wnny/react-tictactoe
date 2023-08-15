@@ -69,7 +69,7 @@ function App() {
 
   return (
     <div className="game">
-      <h1 className="game-info">Tic Tac Toe</h1>
+      <h1 className="game-info">햇똥이 vs 빠얌이</h1>
       <Board squares={current.squares} onClick={(i) => handleClick(i)} />
       <div className="game-info">
         <h2 className="status">{status}</h2>
